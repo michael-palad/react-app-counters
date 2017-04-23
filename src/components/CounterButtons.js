@@ -6,9 +6,13 @@ import { addCounter, removeCounter } from '../actions/index';
 class CounterButtons extends Component {
   render() {
     return (
-      <div>
-        <button onClick={() => this.props.addCounter()}>Add Counter</button>
-        <button onClick={() => this.props.removeCounter()}>Remove Counter</button>
+      <div className="c-btn-group">
+        <button className="btn btn-primary c-btn" onClick={() => this.props.addCounter()}>
+          Add Counter
+        </button>
+        <button className="btn btn-primary c-btn" onClick={() => this.props.removeCounter()}>
+          Remove Counter
+        </button>
       </div>
     )
   }

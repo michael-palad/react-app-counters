@@ -1,0 +1,29 @@
+.c-btn-group {
+  clear: both;
+}
+
+.c-btn {
+  margin: 10px 0 10px 10px;
+}
+
+.n-btn {
+  margin-right: 5px;
+}
+
+.positive-number {
+  color: green;
+}
+
+.negative-number {
+  color: red;
+}
+
+.counter-panel {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px;
+  float: left;
+}
